@@ -1,9 +1,9 @@
 import './App.css';
-import Login from './Components/Login.jsx'
+import {Components} from './Components/Components'
 
 function App() {
   return (
-    <Login/>
+    <Components/>
   );
 }
 

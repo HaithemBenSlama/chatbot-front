@@ -1,9 +1,8 @@
 import './App.css';
-import Login from './Components/Login.jsx'
 
 function App() {
   return (
-    <Login/>
+    <div classname="bg-red-500"></div>
   );
 }
 
