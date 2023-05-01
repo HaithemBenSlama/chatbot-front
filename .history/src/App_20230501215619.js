@@ -13,7 +13,7 @@ const App = () => {
         <RightSection/>
         </>
       ) : (
-        <Login setIsLoggedIn={setIsLoggedIn}/>
+        <Login />
       )}
     </div>
   )

@@ -1,6 +1,5 @@
 import React from 'react'
 import { LeftSection, RightSection } from './Components/main'
-import { useState } from "react"
 import Login from './Components/Login/Login';
 
 const App = () => {
@@ -13,7 +12,7 @@ const App = () => {
         <RightSection/>
         </>
       ) : (
-        <Login setIsLoggedIn={setIsLoggedIn}/>
+        <Login />
       )}
     </div>
   )
