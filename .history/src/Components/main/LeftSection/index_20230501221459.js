@@ -1,7 +1,7 @@
 import React from "react";
 import { LogOutIcon,PlusIcon,} from "../../../constants";
 
-const LeftSection = ({ show = false }) => {
+const LeftSection = ({ show = false ,setIsLoggedIn}) => {
   return (
     <div
       className={`${show && " flex flex-col"} ${
@@ -22,7 +22,7 @@ const LeftSection = ({ show = false }) => {
             </div>
               <a
                 className="flex py-3 px-3 items-center gap-3 rounded-md hover:bg-gray-500/10 transition-colors duration-200 text-white cursor-pointer text-sm"
-                href="/Login"
+                onClick={()=>{setIsLoggedIn(false)}}
               >
                 <LogOutIcon/>
                 Se déconnecter
